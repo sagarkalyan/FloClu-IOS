@@ -25,6 +25,7 @@ product can send alert to users and take help from users nearby.
       
 ## CONTRIBUTERS
 ### [SHIVA MALL](https://github.com/Shivamall)
+### [Ashish](https://github.com/AshishProjects)
 ### [SAGAR KALYAN](https://github.com/sagarkalyan)
 ### [Harmanpreet Gill](https://github.com/iamharmangill)
 
