@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="FOI-dx-5ts">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Home StoryboardVC-->
+        <scene sceneID="2tV-AR-2K0">
+            <objects>
+                <viewController storyboardIdentifier="HomeVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="hft-oe-aXG" customClass="HomeStoryboardVC" customModule="FloClu" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Wns-S4-frb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Fdh-CN-E9b">
+                                <rect key="frame" x="66" y="321" width="282" height="254"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="akE-fP-f4Z">
+                                        <rect key="frame" x="0.0" y="0.0" width="282" height="127"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eBf-Wx-SQo">
+                                                <rect key="frame" x="0.0" y="0.0" width="141" height="127"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="127" id="4mf-NG-tSa"/>
+                                                    <constraint firstAttribute="width" constant="141" id="NHc-JK-s60"/>
+                                                </constraints>
+                                                <state key="normal" image="2"/>
+                                                <connections>
+                                                    <segue destination="7H5-it-tPo" kind="show" id="Rct-9t-BsQ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eh4-x4-mME">
+                                                <rect key="frame" x="141" y="0.0" width="141" height="127"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="141" id="H6n-fS-LFd"/>
+                                                    <constraint firstAttribute="height" constant="127" id="tOW-hF-FJB"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="new"/>
+                                                <connections>
+                                                    <segue destination="XAd-6L-gHq" kind="show" id="IgM-Ge-6kN"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="282" id="YWy-8Y-Uzd"/>
+                                            <constraint firstAttribute="height" constant="127" id="o6p-X4-T0a"/>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="BqP-vt-sGV">
+                                        <rect key="frame" x="0.0" y="127" width="282" height="127"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cX9-38-whX">
+                                                <rect key="frame" x="0.0" y="0.0" width="141" height="127"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="141" id="7Nh-4e-SzJ"/>
+                                                    <constraint firstAttribute="height" constant="127" id="KwA-ol-ka5"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="4"/>
+                                                <connections>
+                                                    <segue destination="gzk-yM-too" kind="show" id="I1S-cw-Zwr"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cXN-QI-r2i">
+                                                <rect key="frame" x="141" y="0.0" width="141" height="127"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="127" id="UPj-i9-auT"/>
+                                                    <constraint firstAttribute="width" constant="141" id="umd-mO-7VW"/>
+                                                </constraints>
+                                                <state key="normal" title="Button" image="new 2"/>
+                                                <connections>
+                                                    <segue destination="auN-rT-gxc" kind="show" id="4M1-kn-AkM"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="127" id="TQ4-pV-cU7"/>
+                                            <constraint firstAttribute="width" constant="282" id="znq-y3-JFZ"/>
+                                        </constraints>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="254" id="Axd-4u-2DD"/>
+                                    <constraint firstAttribute="width" constant="282" id="v4v-mH-IHV"/>
+                                </constraints>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FlowLogo" translatesAutoresizingMaskIntoConstraints="NO" id="uUd-bE-Lto">
+                                <rect key="frame" x="157" y="108" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="0tr-zW-aOp"/>
+                                    <constraint firstAttribute="height" constant="100" id="4CA-Te-25l"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sup-6B-2Gc">
+                                <rect key="frame" x="152" y="605" width="110" height="40"/>
+                                <color key="backgroundColor" red="0.14715116680000001" green="0.5722661644" blue="0.53749406669999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="dw3-Ot-Rvv"/>
+                                    <constraint firstAttribute="width" constant="110" id="u8u-ta-3xQ"/>
+                                </constraints>
+                                <state key="normal" title="Add Reminder">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="addPeriodButtonClicked:" destination="hft-oe-aXG" eventType="touchUpInside" id="o6c-Kw-5Dz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <accessibility key="accessibilityConfiguration" identifier="asdf"/>
+                        <constraints>
+                            <constraint firstItem="uUd-bE-Lto" firstAttribute="top" secondItem="wxl-wW-U9q" secondAttribute="top" constant="20" id="0WS-Yx-azU"/>
+                            <constraint firstItem="uUd-bE-Lto" firstAttribute="centerX" secondItem="Wns-S4-frb" secondAttribute="centerX" id="1bZ-bu-JWZ"/>
+                            <constraint firstItem="Fdh-CN-E9b" firstAttribute="centerX" secondItem="Wns-S4-frb" secondAttribute="centerX" id="1ye-8L-oil"/>
+                            <constraint firstItem="Sup-6B-2Gc" firstAttribute="top" secondItem="Fdh-CN-E9b" secondAttribute="bottom" constant="30" id="3dB-Yj-aeh"/>
+                            <constraint firstItem="Fdh-CN-E9b" firstAttribute="centerY" secondItem="Wns-S4-frb" secondAttribute="centerY" id="EKA-0s-5yK"/>
+                            <constraint firstItem="Sup-6B-2Gc" firstAttribute="centerX" secondItem="Wns-S4-frb" secondAttribute="centerX" id="KXn-sl-4XC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="wxl-wW-U9q"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="s4B-GK-TnO">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="female user" id="gf8-yH-bfg">
+                            <color key="tintColor" red="0.23921568627450979" green="0.23921568627450979" blue="0.23921568627450979" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="Group 331" id="v5E-dr-E99">
+                            <color key="tintColor" red="0.98431372549999996" green="0.49803921569999998" blue="0.49803921569999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <segue destination="yGI-6w-9oQ" kind="show" id="DwF-aR-p4K"/>
+                            </connections>
+                        </barButtonItem>
+                        <connections>
+                            <outlet property="leftBarButtonItem" destination="gf8-yH-bfg" id="JQB-Hi-kq2"/>
+                            <outlet property="rightBarButtonItem" destination="v5E-dr-E99" id="zBi-4i-GXe"/>
+                        </connections>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="settingButtonClicked" destination="v5E-dr-E99" id="Uac-D7-dGV"/>
+                        <outlet property="userProfile" destination="gf8-yH-bfg" id="Y2B-Xk-dBB"/>
+                        <segue destination="RSn-Xr-mju" kind="show" identifier="helpList" id="mtf-qK-k6z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9nz-uT-WXM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1050.7246376811595" y="81.696428571428569"/>
+        </scene>
+        <!--SettingsStoryboard-->
+        <scene sceneID="1hF-NY-GIb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Settings" referencedIdentifier="SettingsStoryboard" id="yGI-6w-9oQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H03-30-zlx" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1560" y="-332"/>
+        </scene>
+        <!--CollectionPostView-->
+        <scene sceneID="jOg-Yb-vBu">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PostsBoard" referencedIdentifier="CollectionPostView" id="7H5-it-tPo" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="QrH-BA-xKk"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hNn-z1-7VY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2099" y="-210"/>
+        </scene>
+        <!--CalendarEntryStoryBoard-->
+        <scene sceneID="XqE-DB-kqp">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Calendar" referencedIdentifier="CalendarEntryStoryBoard" id="XAd-6L-gHq" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HFd-fR-e2j" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2086" y="-85"/>
+        </scene>
+        <!--alertSB-->
+        <scene sceneID="ajr-rY-pHt">
+            <objects>
+                <viewControllerPlaceholder storyboardName="AlertBoard" referencedIdentifier="alertSB" id="gzk-yM-too" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fNe-3v-AB3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2075" y="52"/>
+        </scene>
+        <!--Storyboard Reference-->
+        <scene sceneID="P9F-JB-yre">
+            <objects>
+                <viewControllerPlaceholder id="auN-rT-gxc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MGm-IG-cox" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2062" y="227"/>
+        </scene>
+        <!--goToHelp-->
+        <scene sceneID="1wQ-m6-gHF">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="goToHelp" storyboardName="AlertBoard" referencedIdentifier="goToHelp" id="RSn-Xr-mju" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OUh-RB-iQv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1860" y="417"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="MyD-j1-Hkg">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="FOI-dx-5ts" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vvd-Eg-Hx8">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hft-oe-aXG" kind="relationship" relationship="rootViewController" id="pvq-iQ-KJf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P81-cZ-gOF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="235" y="82"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2" width="142" height="127"/>
+        <image name="4" width="142" height="136"/>
+        <image name="FlowLogo" width="730" height="1140"/>
+        <image name="Group 331" width="37" height="37"/>
+        <image name="female user" width="29.5" height="36"/>
+        <image name="new" width="141" height="127"/>
+        <image name="new 2" width="135" height="135"/>
+    </resources>
+</document>

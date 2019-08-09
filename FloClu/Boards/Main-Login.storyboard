@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hG8-fy-Dpn">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="zI6-zm-uff">
+            <objects>
+                <viewController id="Wrh-bU-dVO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3bM-wn-o8T">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xZO-Mb-OHl">
+                                <rect key="frame" x="20" y="746.5" width="374" height="30"/>
+                                <color key="backgroundColor" red="0.050980392159999999" green="0.72549019609999998" blue="0.61960784310000006" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" title="LOGIN"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth ">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="0.14715116680000001" green="0.5722661644" blue="0.53749406669999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uje-og-aQO">
+                                <rect key="frame" x="20" y="791.5" width="374" height="30"/>
+                                <state key="normal" title="SIGNUP"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth ">
+                                        <integer key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="layer.borderColor">
+                                        <color key="value" red="0.14715116680000001" green="0.5722661644" blue="0.53749406669999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="iKH-ml-qyf" firstAttribute="trailing" secondItem="Uje-og-aQO" secondAttribute="trailing" constant="20" id="1Be-VH-Yup"/>
+                            <constraint firstItem="iKH-ml-qyf" firstAttribute="trailing" secondItem="xZO-Mb-OHl" secondAttribute="trailing" constant="20" id="Hu0-3s-b6t"/>
+                            <constraint firstItem="xZO-Mb-OHl" firstAttribute="leading" secondItem="iKH-ml-qyf" secondAttribute="leading" constant="20" id="bsl-et-i0Z"/>
+                            <constraint firstItem="Uje-og-aQO" firstAttribute="leading" secondItem="iKH-ml-qyf" secondAttribute="leading" constant="20" id="tn5-fr-ZOR"/>
+                            <constraint firstItem="xZO-Mb-OHl" firstAttribute="centerY" secondItem="3bM-wn-o8T" secondAttribute="centerY" multiplier="1.7" id="xOr-5A-Ug2"/>
+                            <constraint firstItem="Uje-og-aQO" firstAttribute="centerY" secondItem="3bM-wn-o8T" secondAttribute="centerY" multiplier="1.8" id="xSd-ci-cEZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="iKH-ml-qyf"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uI9-7t-8hs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WsJ-z1-rKk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1060.8695652173915" y="73.660714285714278"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Snc-9s-Bb6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hG8-fy-Dpn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7sC-EJ-zH5">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Wrh-bU-dVO" kind="relationship" relationship="rootViewController" id="jFG-se-L0S"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ShZ-2C-JMr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="150.72463768115944" y="73.660714285714278"/>
+        </scene>
+    </scenes>
+</document>

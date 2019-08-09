@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>5925206970-4giujmmeotsda1h8r3o9g83a42kg741d.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.5925206970-4giujmmeotsda1h8r3o9g83a42kg741d</string>
+	<key>API_KEY</key>
+	<string>AIzaSyD1qh1hYjOERXLJQ-1LehtdFWHxPwClJH4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>5925206970</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.harmangill.FloClu</string>
+	<key>PROJECT_ID</key>
+	<string>capstone-flwclu</string>
+	<key>STORAGE_BUCKET</key>
+	<string>capstone-flwclu.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:5925206970:ios:4b223bc6bac5d197</string>
+	<key>DATABASE_URL</key>
+	<string>https://capstone-flwclu.firebaseio.com</string>
+</dict>
+</plist>
